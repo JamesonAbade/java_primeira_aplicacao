@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Esse é o Screen Match");
@@ -20,9 +22,14 @@ public class Main {
         System.out.println("Media nota do Filme " + media);
 
         int classificacao;
-        classificacao = (int) (media /2); //foi feito um cast para transformar o double em inteiro
+        classificacao = (int) (media /2); //foi feito um cast 'implícito' para transformar o double em inteiro
         System.out.println("esse filme e de " + classificacao + " estrelas");
 
+//        Scanner scanner = new Scanner(System.in); //Instância que solicita entrada do valor da temperatura
+//        System.out.println("Digite a temperatura em Celsius");
+//        int temperatura = scanner.nextInt();
+//        int fahenheit = (int) ((temperatura * 1.8) + 32);
+//        System.out.println("A temperatura em fahenheit é " + fahenheit);
 
 //        String nome = "Maria";
 //        int idade = 30;
